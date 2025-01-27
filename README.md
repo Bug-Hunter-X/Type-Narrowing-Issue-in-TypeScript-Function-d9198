@@ -1,0 +1,3 @@
+# Type Narrowing Issue in TypeScript
+
+This repository demonstrates a common error related to type narrowing in TypeScript.  The `processData` function aims to handle both numbers and strings, but it fails to properly narrow the type in the string case. This leads to a silent type conversion that produces an unexpected result. The solution provides a correct implementation that addresses the type narrowing issue.
